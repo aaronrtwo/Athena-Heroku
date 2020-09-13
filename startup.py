@@ -2,7 +2,7 @@ import schedule
 import time
 
 def start_up():
-   execfile('itemshop.py')
+   exec(open('itemshop.py').read())
    print("Starting up itemshop.py!")
 
 
